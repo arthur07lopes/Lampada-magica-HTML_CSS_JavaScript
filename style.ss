@@ -1,4 +1,3 @@
-
 :root {
   color-scheme: dark;
   font-family: "Segoe UI", Arial, sans-serif;
