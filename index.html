@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto de aprendizado acessível: uma lâmpada interativa em uma atmosfera inspirado no jogo Hollow Knight.">
+    <title>Lâmpada Mágica - Inspirado em Hollow Knight</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lampada.js" defer></script>
+</head>
+<body>
+   <a class="skip-link" href="#lamp-scene">Pular para a lâmpada</a>
 
+   <main class="scene" id="lamp-scene">
+    <img 
+        class="scene-image"
+        src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1617763137764-D5F6028LYPHLAP5BIK0Q/mines.jpg"
+        alt=""
+        aria-hidden="true">
+
+    <section class="controls" aria-labelledby="page-title">
+        <p class="eyebrow">UMA LUZ NO ABISMO</p>
+        <h1 id="page-title">Lâmpada Mágica</h1>
+
+        <div class="lamp" aria-hidden="true">
+            <span class="lamp-glow"></span>
+            <span class="lamp-bulb"><span class="filament"></span></span>
+            <span class="lamp-socket"></span>
+            <span class="lamp-base"></span>
+        </div>
+
+        <p class="lamp-status" id="lamp-status" aria-live="polite" aria-atomic="true">A lâmpada está apagada.</p>
+        <button id="toggle-lamp" type="button" aria-pressed="false">Alternar lâmpada</button>
+    </section>
+</main>
+</body>
+</html>
